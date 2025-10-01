@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+background-image: url(./netflex.jpg);
+overflow: hidden;
+flex-wrap: wrap;
+background-image: cover;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+background-color: black;
+display: flex;
+padding-left: 100px;
+/* justify-content: space-around; */
+}
+.navbar img{
+    height: 80px;
+    width: 200px;
+}
+
+.lang{
+   padding-left: 700px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+select{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 124px;
+    height: 32px;
+  
+}
+button{
+    background-color: red;
+    height: 31px;
+    width: 70px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: .95rem;
+    margin-left: 10px;
+    border-radius: 5px;
+
+}
+
+.text{
+  text-align: center;
+  margin-top: 130px;
+  font-weight: 900;
+}
+
+h1{
+color: white;
+font-size: 4rem;
+
+}
+h3{
+   color: white;
+   font-size: 1.5rem; 
+}
+p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+    .form-container {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .form-container input {
+      padding: 15px;
+      font-size: 16px;
+      color: white;
+    height: 25px;
+      border-radius: 5px ;
+      width: 320px;
+      background-color: rgba(0, 0, 0, 0.867);
+      border: 1px solid white;
+      border: #e50914
+      
+    }
+
+    .form-container button {
+      background: #e50914; /* Netflix red */
+      color: #fff;
+      border: none;
+      padding: 15px 25px;
+      width: 200px;
+      height: 55px;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius:  5px ;
+      font-weight: bold; 
+    }
+
+    .form-container button:hover {
+      background: #f6121d;
+    }
+
+    .form-container button::after {
+      content: "➔";
+      margin-left: 8px;
+      font-size: 18px;
+    }
+
